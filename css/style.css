@@ -1,0 +1,32 @@
+@import url(./variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--lorem-gray);
+    align-items: center;
+    align-content: center;
+}
+
+form {
+    font-family: "lorem-handwritten";
+}
+form input{
+    font-family: "lorem-indie";
+}
+form span{
+    color: var(--lorem-blue);
+}
+h1{
+    font-family: "lorem-dotted";
+    color: var(--lorem-purple);
+}
+p{
+    color: var(--lorem-blue);
+}
+p span{
+    font-family:  "lorem-indie";
+}

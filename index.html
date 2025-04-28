@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./storage/img/icon.ico" type="image/ico">
+    <title>Title</title>
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer type="module"></script>
+</head>
+
+<body>
+    <main class="main">
+        <form action="?" method="get">
+            <h1>Crea una Receta</h1>
+            <p>Nombre:</p>
+            <input type="text" name="Nombre de la receta" placeholder="¿Cómo se llama esta receta?"><br>
+            <p>Ingredientes:</p>
+            <input type="text" name="Ingredientes" placeholder="¿Qué ingredientes se usarán en esta receta?"><br>
+            <p>Instrucciones:</p>
+            <input type="text" name="Instrucciones de preparación" placeholder="¿Cómo se prepara esta receta?"><br>
+            <p>Duración:</p>
+            <input type="number" name="Tiempo de preparación" placeholder="¿Cúanto tiempo toma hacer esta receta?"><br>
+            <p>Porciones:</p>
+            <input type="number" name="Numero de porciones" placeholder="¿Para cuántas personas alcanza esta receta?"><br>
+            <span class="span__categorías">
+                <p>Elige las categorias de la receta <span>(puedes elegir más de una)</span>:</p>
+                <input type="checkbox" name="Categoría Almuerzo"> <label for=" ">Almuerzo.</label><br>
+                <input type="checkbox" name="Categoría Bebida"> <label for=" ">Bebida.</label><br>
+                <input type="checkbox" name="Categoría Cena"> <label for=" ">Cena.</label><br>
+                <input type="checkbox" name="Categoría Comida"> <label for=" ">Comida.</label><br>
+                <input type="checkbox" name="Cateoria Desayuno"> <label for=" ">Desayuno.</label><br>
+                <input type="checkbox" name="Categoría Entremesa"> <label for=" ">Entremesa.</label><br>
+                <input type="checkbox" name="Categoría Postre"> <label for=" ">Postre.</label><br>
+                <input type="checkbox" name="Categoría Especifique"> <label for=" ">¿Otra opción?<input type="text" name="Especifique" placeholder="Especifique"></label>
+            </span>
+            <p>Nivel de Dificultad:</p>
+            <input type="range" name="Nivel de dificultad"><br>
+            <input type="submit" name="send">
+        </form>
+    </main>
+</body>
+
+</html>
