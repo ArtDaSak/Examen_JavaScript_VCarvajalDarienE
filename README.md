@@ -1,4 +1,4 @@
-# Recetas:
+# MisRecetasApp:
 
 Aplicación web que permite a las personas registrar y gestionar sus recetas.
 
